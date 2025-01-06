@@ -6,7 +6,7 @@
 
 ![Progress 60%](https://geps.dev/progress/60?dangerColor=ff0000&warningColor=ff9900&successColor=00ff00)
 
-![Progress Circle](https://raw.githubusercontent.com/aswind7/circle-progress-bar/master/dist/demo.gif)
+![Progress Circle](https://github.com/BahariTil/BahariTil/blob/main/circle_progress_with_percentage.svg)
 
 <img 
     src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif" alt="A cool animated GIF displaying creative effects"  width="300" align="right">
