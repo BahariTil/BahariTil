@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, I'm Mohammad Javad</h1>
 <h3 align="center">Full-stack developer from Iran, familiar with Python. Passionate about new technologies and developing efficient and modern software.</h3>
 
+### My Specialties
 
-![](https://geps.dev/progress/56?dangerColor=800000&warningColor=ff9900&successColor=006600)
-
-![Progress 60%](https://geps.dev/progress/60?dangerColor=ff0000&warningColor=ff9900&successColor=00ff00)
-
-![Progress Circle](https://github.com/BahariTil/BahariTil/blob/main/circle_progress_with_percentage.svg)
+![CSharp](https://github.com/BahariTil/BahariTil/blob/main/CSharp.svg)
+![ASP_NET_MVC](https://github.com/BahariTil/BahariTil/blob/main/ASP_NET_MVC.svg)
+![php](https://github.com/BahariTil/BahariTil/blob/main/PHP.svg)
+![python](https://github.com/BahariTil/BahariTil/blob/main/Python.svg)
 
 <img 
     src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif" alt="A cool animated GIF displaying creative effects"  width="300" align="right">
