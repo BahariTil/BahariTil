@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mohammad Javad</h1>
-<h3 align="center">Full-stack developer from Iran, familiar with Python. Passionate about new technologies and developing efficient and modern software.</h3>
+<h4 align="center">Full-stack web developer specializing in C# and ASP.NET MVC, with familiarity in Python and PHP. Passionate about building efficient and modern web applications.</h4>
 
 ### My Specialties
 
