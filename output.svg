@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg class="progressbar__svg" width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180"><style>
+    :root {
+      --color-secondary: hsl(0, 0%, 80%);
+      --color-css: hsl(200, 100%, 60%);
+      --color-white: hsl(0, 0%, 100%);
+      --color-black: hsl(0, 0%, 0%);
+    }
+
+    .progressbar__svg-circle {
+      fill: none;
+      stroke-width: 10;
+      stroke-linecap: round;
+      transform: translate(0px, 10px) rotate(-90deg);
+      transform-origin: 50% 40%;
+    }
+
+    .progressbar__svg-circle-bg {
+      stroke: var(--color-secondary);
+    }
+
+    .shadow-css {
+      filter: drop-shadow(0 0 5px var(--color-css));
+    }
+
+    .progressbar__image {
+      width: 50%;
+      height: 50%;
+      x: 30%;
+      y: 28%;
+    }
+
+    .progressbar__svg-circle-fg {
+      stroke: hsl(0, 0%, 100%);
+      stroke-dashoffset: 440;
+      stroke-dasharray: 440;
+      animation: anim_circle 2s ease-in-out forwards;
+    }
+
+    @keyframes anim_circle {
+      from {
+        stroke-dashoffset: 440;
+      }
+      to {
+        stroke-dashoffset: 132.0;
+      }
+    }
+    </style><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-bg" /><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-fg shadow-css" /><image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" class="progressbar__image" /><g transform="translate(160, 125)"><circle cx="0" cy="0" r="20" fill="var(--color-black)" stroke="var(--color-white)" stroke-width="2" /><text x="0" y="0" fill="var(--color-white)" font-family="Arial, Helvetica, sans-serif" font-size="1em" text-anchor="middle" alignment-baseline="central">70%</text></g></svg>
