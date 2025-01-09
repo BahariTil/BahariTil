@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns:ns0="http://www.w3.org/2000/svg" class="progressbar__svg" width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180"><style>
     :root {
-      --color-secondary: hsl(15, 100%, 60%);
+      --color-secondary: hsl(60, 75%, 78%);
       --color-css: hsl(200, 100%, 60%);
       --color-white: hsl(0, 0%, 100%);
       --color-black: hsl(0, 0%, 0%);
