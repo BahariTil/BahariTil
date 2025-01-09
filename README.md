@@ -3,21 +3,20 @@
 
 ### Backend Development
 
-![CSharp](https://github.com/BahariTil/BahariTil/blob/main/output.svg)
-![ASP_NET_MVC](https://github.com/BahariTil/BahariTil/blob/main/ASP_NET_MVC.svg)
-![php](https://github.com/BahariTil/BahariTil/blob/main/PHP.svg)
-![python](https://github.com/BahariTil/BahariTil/blob/main/Python.svg)
+![CSharp](hhttps://github.com/BahariTil/BahariTil/blob/main/SVG/CSharp.svg)
+![php](https://github.com/BahariTil/BahariTil/blob/main/SVG/PHP.svg)
+![python](https://github.com/BahariTil/BahariTil/blob/main/SVG/Python.svg)
 
 ### Frontend Development
 
-![html](https://github.com/BahariTil/BahariTil/blob/main/Html.svg)
-![css](https://github.com/BahariTil/BahariTil/blob/main/css.svg)
-![bootstrap](https://github.com/BahariTil/BahariTil/blob/main/Bootstrap.svg)
-![JavaScript](https://github.com/BahariTil/BahariTil/blob/main/JavaScript.svg)
+![html](https://github.com/BahariTil/BahariTil/blob/main/SVG/Html.svg)
+![css](https://github.com/BahariTil/BahariTil/blob/main/SVG/css.svg)
+![bootstrap](https://github.com/BahariTil/BahariTil/blob/main/SVG/Bootstrap.svg)
+![JavaScript](https://github.com/BahariTil/BahariTil/blob/main/SVG/JavaScript.svg)
 
 ### Database Management
-![SQL Server](https://github.com/BahariTil/BahariTil/blob/main/SQL_Server.svg)
-![MySQL](https://github.com/BahariTil/BahariTil/blob/main/MySQL.svg)
+![SQL Server](https://github.com/BahariTil/BahariTil/blob/main/SVG/SQL_Server.svg)
+![MySQL](https://github.com/BahariTil/BahariTil/blob/main/SVG/MySQL.svg)
 <img 
     src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif" alt="A cool animated GIF displaying creative effects"  width="300" align="right">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=baharitil&label=Profile%20views&color=0e75b6&style=flat" alt="baharitil" /> </p>
