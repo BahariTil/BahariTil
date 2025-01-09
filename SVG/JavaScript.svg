@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns:ns0="http://www.w3.org/2000/svg" class="progressbar__svg" width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180"><style>
+    :root {
+      --color-secondary: hsl(0, 0%, 80%);
+      --color-css: hsl(200, 100%, 60%);
+      --color-white: hsl(0, 0%, 100%);
+      --color-black: hsl(0, 0%, 0%);
+    }
+
+    .progressbar__svg-circle {
+      fill: none;
+      stroke-width: 10;
+      stroke-linecap: round;
+      transform: translate(0px, 10px) rotate(-90deg);
+      transform-origin: 50% 40%;
+    }
+
+    .progressbar__svg-circle-bg {
+      stroke: var(--color-secondary);
+    }
+
+    .shadow-css {
+      filter: drop-shadow(0 0 5px var(--color-css));
+    }
+
+    .progressbar__svg-circle-fg {
+      stroke: hsl(0, 0%, 100%);
+      stroke-dashoffset: 440;
+      stroke-dasharray: 440;
+      animation: anim_circle 2s ease-in-out forwards;
+    }
+
+    @keyframes anim_circle {
+      from {
+        stroke-dashoffset: 440;
+      }
+      to {
+        stroke-dashoffset: 132.0;
+      }
+    }
+    </style><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-bg" /><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-fg shadow-css" /><g><ns0:svg viewBox="0 0 128 128" width="50%" height="50%" x="30%" y="28%"><ns0:path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z" /><ns0:path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z" /></ns0:svg></g><g transform="translate(155, 140)"><circle cx="0" cy="0" r="20" fill="var(--color-black)" stroke="var(--color-white)" stroke-width="2" /><text x="0" y="0" fill="var(--color-white)" font-family="Arial, Helvetica, sans-serif" font-size="1em" text-anchor="middle" alignment-baseline="central">70%</text></g></svg>

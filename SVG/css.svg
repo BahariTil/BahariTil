@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns:ns0="http://www.w3.org/2000/svg" class="progressbar__svg" width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180"><style>
+    :root {
+      --color-secondary: hsl(0, 0%, 80%);
+      --color-css: hsl(200, 100%, 60%);
+      --color-white: hsl(0, 0%, 100%);
+      --color-black: hsl(0, 0%, 0%);
+    }
+
+    .progressbar__svg-circle {
+      fill: none;
+      stroke-width: 10;
+      stroke-linecap: round;
+      transform: translate(0px, 10px) rotate(-90deg);
+      transform-origin: 50% 40%;
+    }
+
+    .progressbar__svg-circle-bg {
+      stroke: var(--color-secondary);
+    }
+
+    .shadow-css {
+      filter: drop-shadow(0 0 5px var(--color-css));
+    }
+
+    .progressbar__svg-circle-fg {
+      stroke: hsl(0, 0%, 100%);
+      stroke-dashoffset: 440;
+      stroke-dasharray: 440;
+      animation: anim_circle 2s ease-in-out forwards;
+    }
+
+    @keyframes anim_circle {
+      from {
+        stroke-dashoffset: 440;
+      }
+      to {
+        stroke-dashoffset: 44.0;
+      }
+    }
+    </style><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-bg" /><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-fg shadow-css" /><g><ns0:svg viewBox="0 0 128 128" width="50%" height="50%" x="30%" y="28%"><ns0:path fill="#1572B6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z" /><ns0:path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z" /><ns0:path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711-3.4 38.114h-30.95V51.429z" /><ns0:path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031H33.752l1.937 21.717 28.331 7.863.063-.018v-14.39z" /><ns0:path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881H81.127z" /><ns0:path fill="#EBEBEB" d="M64.048 23.435v13.831H30.64l-.277-3.108-.63-7.012-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108-.631-7.012-.33-3.711h16.447z" /></ns0:svg></g><g transform="translate(155, 140)"><circle cx="0" cy="0" r="20" fill="var(--color-black)" stroke="var(--color-white)" stroke-width="2" /><text x="0" y="0" fill="var(--color-white)" font-family="Arial, Helvetica, sans-serif" font-size="1em" text-anchor="middle" alignment-baseline="central">90%</text></g></svg>

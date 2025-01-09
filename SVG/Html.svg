@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns:ns0="http://www.w3.org/2000/svg" class="progressbar__svg" width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180"><style>
+    :root {
+      --color-secondary: hsl(0, 0%, 80%);
+      --color-css: hsl(200, 100%, 60%);
+      --color-white: hsl(0, 0%, 100%);
+      --color-black: hsl(0, 0%, 0%);
+    }
+
+    .progressbar__svg-circle {
+      fill: none;
+      stroke-width: 10;
+      stroke-linecap: round;
+      transform: translate(0px, 10px) rotate(-90deg);
+      transform-origin: 50% 40%;
+    }
+
+    .progressbar__svg-circle-bg {
+      stroke: var(--color-secondary);
+    }
+
+    .shadow-css {
+      filter: drop-shadow(0 0 5px var(--color-css));
+    }
+
+    .progressbar__svg-circle-fg {
+      stroke: hsl(0, 0%, 100%);
+      stroke-dashoffset: 440;
+      stroke-dasharray: 440;
+      animation: anim_circle 2s ease-in-out forwards;
+    }
+
+    @keyframes anim_circle {
+      from {
+        stroke-dashoffset: 440;
+      }
+      to {
+        stroke-dashoffset: 44.0;
+      }
+    }
+    </style><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-bg" /><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-fg shadow-css" /><g><ns0:svg viewBox="0 0 128 128" width="50%" height="50%" x="30%" y="28%"><ns0:path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z" /><ns0:path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z" /><ns0:path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z" /><ns0:path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z" /></ns0:svg></g><g transform="translate(155, 140)"><circle cx="0" cy="0" r="20" fill="var(--color-black)" stroke="var(--color-white)" stroke-width="2" /><text x="0" y="0" fill="var(--color-white)" font-family="Arial, Helvetica, sans-serif" font-size="1em" text-anchor="middle" alignment-baseline="central">90%</text></g></svg>

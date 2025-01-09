@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns:ns0="http://www.w3.org/2000/svg" class="progressbar__svg" width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180"><style>
+    :root {
+      --color-secondary: hsl(0, 0%, 80%);
+      --color-css: hsl(200, 100%, 60%);
+      --color-white: hsl(0, 0%, 100%);
+      --color-black: hsl(0, 0%, 0%);
+    }
+
+    .progressbar__svg-circle {
+      fill: none;
+      stroke-width: 10;
+      stroke-linecap: round;
+      transform: translate(0px, 10px) rotate(-90deg);
+      transform-origin: 50% 40%;
+    }
+
+    .progressbar__svg-circle-bg {
+      stroke: var(--color-secondary);
+    }
+
+    .shadow-css {
+      filter: drop-shadow(0 0 5px var(--color-css));
+    }
+
+    .progressbar__svg-circle-fg {
+      stroke: hsl(0, 0%, 100%);
+      stroke-dashoffset: 440;
+      stroke-dasharray: 440;
+      animation: anim_circle 2s ease-in-out forwards;
+    }
+
+    @keyframes anim_circle {
+      from {
+        stroke-dashoffset: 440;
+      }
+      to {
+        stroke-dashoffset: 66.0;
+      }
+    }
+    </style><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-bg" /><circle cx="80" cy="80" r="70" class="progressbar__svg-circle progressbar__svg-circle-fg shadow-css" /><g><ns0:svg viewBox="0 0 128 128" width="50%" height="50%" x="30%" y="28%"><ns0:path fill="#9B4F96" d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z" /><ns0:path fill="#68217A" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z" /><ns0:path fill="#fff" d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6zM97 66.2l.9-4.3h-4.2v-4.7h5.1L100 51h4.9l-1.2 6.1h3.8l1.2-6.1h4.8l-1.2 6.1h2.4v4.7h-3.3l-.9 4.3h4.2v4.7h-5.1l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6h-2.4v-4.7H97zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z" /></ns0:svg></g><g transform="translate(155, 140)"><circle cx="0" cy="0" r="20" fill="var(--color-black)" stroke="var(--color-white)" stroke-width="2" /><text x="0" y="0" fill="var(--color-white)" font-family="Arial, Helvetica, sans-serif" font-size="1em" text-anchor="middle" alignment-baseline="central">85%</text></g></svg>
