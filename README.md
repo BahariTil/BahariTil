@@ -22,17 +22,26 @@
 ![MySQL](https://github.com/BahariTil/BahariTil/blob/main/SVG/MySQL.svg)
 <img 
     src="https://github.com/BahariTil/BahariTil/blob/main/SVG/dik4l34-51caeb50-91f3-46c0-990c-92e62b3b1ad4.png" alt="A cool animated GIF displaying creative effects"  width="300" align="right">
-- 🌱 I’m currently learning **SEO in the field of web development and learning IoT**
+🌱 **Currently Learning**  
+- Advanced SEO techniques for web development  
+- IoT fundamentals and applications  
 
-- 👨‍💻 All of my projects are available at [Portfolio Link: (Pending)](Portfolio Link: (Pending))
+👨‍💻 **Featured Project**  
+- [ArtavaCenter](http://artavacenter.ir) - Corporate website developed with ASP.NET MVC  
 
-- 💬 Ask me about **C#, ASP.NET MVC, Python, PHP,**
+💻 **Core Skills**  
+- Backend: C#, ASP.NET MVC/Core, PHP (API development)  
+- Frontend: HTML5, CSS3, JavaScript, Bootstrap  
+- Other: Python (Image Processing), Git  
 
-- 📫 How to reach me **mohammadjavadtil@gmail.com**
+📫 **Get in Touch**  
+- Email: [mohammadjavadtil@gmail.com](mailto:mohammadjavadtil@gmail.com)  
+- Portfolio: [Coming Soon]  
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/mohammadjavadtil" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="mohammadjavadtil" width="40" /></a>
+💬 **Ask me about**  
+- Enterprise web development  
+- .NET migration projects  
+- Multi-language website implementation  
 
 <a href="https://www.linkedin.com/in/baharitil/" target="blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"  width="40" /></a>
 </p>
