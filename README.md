@@ -1,5 +1,19 @@
-<h1 align="center">Hi 👋, I'm Mohammad Javad</h1>
-<h4 align="center">Full-stack web developer specializing in C# and ASP.NET MVC, with familiarity in Python and PHP. Passionate about building efficient and modern web applications.</h4>
+<h1 align="center">👋 Hello World, I'm Mohammad Javad</h1>
+<h3 align="center">𝐅𝐮𝐥𝐥-𝐒𝐭𝐚𝐜𝐤 .𝐍𝐄𝐓 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</h3>
+
+<p align="center">
+  <a href="https://artavacenter.ir" target="_blank">
+    <img src="https://img.shields.io/badge/My_Showcase-ArtavaCenter-blue?style=for-the-badge&logo=google-chrome" alt="Portfolio">
+  </a>
+  <a href="mailto:mohammadjavadtil@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail" alt="Email">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=ASP.NET+MVC+Specialist;Corporate+Web+Solutions;Python+Image+Processing;Clean+Code+Advocate" alt="Typing SVG" />
+</p>
+
 <img 
     src="https://github.com/BahariTil/BahariTil/blob/main/SVG/code.gif" alt="A cool animated GIF displaying creative effects"  width="auto" align="right">
 
